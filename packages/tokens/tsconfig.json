@@ -1,0 +1,4 @@
+{
+  "extends": "@caju-ui/ts-config/base.json",
+  "include": ["src"]
+}

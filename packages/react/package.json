@@ -1,0 +1,23 @@
+{
+  "name": "@caju-ui/react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4",
+    "@caju-ui/tokens": "*",
+    "@caju-ui/ts-config": "*",
+    "@caju-ui/eslint-config": "*"
+  }
+}
