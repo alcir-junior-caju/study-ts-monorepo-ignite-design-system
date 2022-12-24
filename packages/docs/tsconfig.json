@@ -1,0 +1,4 @@
+{
+  "extends": "@caju-ui/ts-config/react.json",
+  "include": ["src"]
+}
