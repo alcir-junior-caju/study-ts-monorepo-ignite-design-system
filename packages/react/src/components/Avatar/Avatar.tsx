@@ -15,3 +15,5 @@ export function Avatar(props: AvatarProps) {
     </AvatarStyled>
   )
 }
+
+Avatar.displayName = 'Avatar'

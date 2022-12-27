@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/alcir-junior-caju.png',
     alt: 'Alcir Junior',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
